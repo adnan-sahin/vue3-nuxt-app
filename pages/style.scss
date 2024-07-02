@@ -1,0 +1,23 @@
+main {
+  width: 80%;
+  margin: 15px auto;
+}
+
+table {
+  width: 100%;
+  border: 1px solid;
+  th,
+  td {
+    border: 1px solid;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    padding: 2px;
+  }
+
+  th {
+    height: 30px;
+  }
+  tr:hover {
+    background-color: #ddd;
+  }
+}
